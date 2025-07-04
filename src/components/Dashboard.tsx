@@ -1,39 +1,4 @@
-// // src/components/Dashboard.tsx
-// import React from 'react';
 
-// type DashboardProps = {
-//   totalCandidates: number;
-//   totalEngineers: number;
-//   scheduledCount: number;
-// };
-
-// const Dashboard: React.FC<DashboardProps> = ({
-//   totalCandidates,
-//   totalEngineers,
-//   scheduledCount,
-// }) => {
-//   return (
-//     <div
-//       style={{
-//         backgroundColor: '#000000',
-//         color: '#00FF88',
-//         padding: '20px',
-//         borderRadius: '12px',
-//         display: 'flex',
-//         justifyContent: 'space-around',
-//         fontWeight: 'bold',
-//         boxShadow: '0 0 10px #00FF88',
-//         marginBottom: '24px',
-//       }}
-//     >
-//       <div>Candidates: {totalCandidates}</div>
-//       <div>Engineers: {totalEngineers}</div>
-//       <div>Scheduled Interviews: {scheduledCount}</div>
-//     </div>
-//   );
-// };
-
-// export default Dashboard;
 import React from 'react';
 
 type DashboardProps = {
