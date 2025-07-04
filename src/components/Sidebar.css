@@ -1,21 +1,22 @@
 .sidebar {
   height: 100vh;
   width: 220px;
-  background-color: #111;
-  color: #00cc66;
+  background-color: #f1f5f9; /* soft light grey-blue background */
+  color: #1f2937; /* steel grey text */
   padding: 20px;
   position: fixed;
   left: 0;
   top: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
 }
 
 .sidebar-title {
-  margin-top:20px;
+  margin-top: 20px;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 40px;
-  color: #00cc66;
+  color: #1e40af; /* soft indigo heading */
 }
 
 .sidebar-menu {
@@ -28,11 +29,14 @@
   cursor: pointer;
   border-left: 4px solid transparent;
   transition: 0.3s;
+  color: #334155; /* deep steel grey */
+  font-weight: 500;
+  border-radius: 6px;
 }
 
 .sidebar-menu li:hover,
 .sidebar-menu li.active {
-  background-color: #222;
-  border-left: 4px solid rgb(139, 219, 139);
-  color:white;
+  background-color: #e0f2fe; /* soft light blue highlight */
+  border-left: 4px solid #3b82f6; /* vivid blue accent */
+  color: #1e3a8a; /* strong indigo */
 }

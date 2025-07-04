@@ -1,26 +1,36 @@
 .dashboard-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
-  color: #00cc66;
+  color: #1f2937; /* steel grey text */
+  
 }
 
 .dashboard-box {
-  background: #111;
+  background-color: #f0f9ff; /* soft blue background */
   padding: 20px;
-  border: 1px solid #00cc66;
+  
+  border: 1px solid #cbd5e1; /* light steel grey border */
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 0 5px #00cc66;
+  box-shadow: 0 2px 8px rgba(100, 116, 139, 0.1); /* subtle blue-grey shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(100, 116, 139, 0.2);
 }
 
 .scheduled-card {
   grid-column: 1 / -1;
-  background-color: #121212;
-  border: 1px solid #00cc66;
+  background-color: #e0f2fe; /* lighter blue */
+  border: 1px solid #93c5fd; /* soft sky border */
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
+  color: #1e3a8a; /* navy blue text */
+  box-shadow: 0 0 8px rgba(147, 197, 253, 0.3);
 }
 
 .engineer-list {
@@ -30,5 +40,6 @@
 
 .engineer-list ul {
   padding-left: 20px;
-  list-style-type: square;
+  list-style-type: disc;
+  color: #334155; /* dark steel grey */
 }

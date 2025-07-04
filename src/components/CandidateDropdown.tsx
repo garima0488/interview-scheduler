@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 type Candidate = {
@@ -18,10 +17,15 @@ type Props = {
 
 const CandidateDropdown: React.FC<Props> = ({ candidates, onSelect }) => {
   return (
-    <div style={{ marginBottom: '20px' }}>
+    <div style={{ marginBottom: '24px' }}>
       <label
         htmlFor="candidate-select"
-        style={{ marginRight: '10px', color: '#00FF88' }}
+        style={{
+          marginRight: '12px',
+          color: '#1f2937',
+          fontWeight: '500',
+          fontSize: '16px',
+        }}
       >
         Select Candidate:
       </label>
@@ -32,11 +36,13 @@ const CandidateDropdown: React.FC<Props> = ({ candidates, onSelect }) => {
           if (selected) onSelect(selected);
         }}
         style={{
-          padding: '8px',
+          padding: '10px 12px',
           borderRadius: '8px',
-          backgroundColor: '#000000',
-          color: '#00FF88',
-          border: '1px solid #00FF88',
+          backgroundColor: '#f9fafb',
+          color: '#1f2937',
+          border: '1px solid #cbd5e1',
+          fontSize: '15px',
+          minWidth: '200px',
         }}
       >
         <option value="">-- Choose --</option>
