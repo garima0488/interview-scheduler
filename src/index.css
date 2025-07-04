@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f; /* Deep black background */
+  color: #e0ffe0; /* Soft green text */
+}
+
+h1, h2, h3, h4 {
+  color: #1cee8c;
+}
+
+button {
+  background-color: #00ff88;
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00cc66;
+}
+
+app-container {
+  display: flex;
+  background-color: #000;
+  min-height: 100vh;
+  color: #00cc66;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px 40px;
+  margin-left: 220px; /* matches sidebar width */
+}
+
+.list-section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  background: #001a12;
+  transition: 0.3s ease;
+}

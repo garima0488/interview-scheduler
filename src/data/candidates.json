@@ -1,0 +1,48 @@
+[
+  {
+    "id": "cand_1",
+    "name": "Garima Sehgal",
+    "availability": {
+      "day": "Tuesday",
+      "start": "14:00",
+      "end": "17:00"
+    }
+  },
+  {
+    "id": "cand_2",
+    "name": "Ravi Patel",
+    "availability": {
+      "day": "Wednesday",
+      "start": "10:00",
+      "end": "12:00"
+    }
+  },
+  {
+    "id": "cand_3",
+    "name": "Aisha Khan",
+    "availability": {
+      "day": "Monday",
+      "start": "11:00",
+      "end": "13:00"
+    }
+  },
+  {
+    "id": "cand_4",
+    "name": "Neeraj Mehta",
+    "availability": {
+      "day": "Thursday",
+      "start": "12:30",
+      "end": "15:30"
+    }
+  },
+  {
+    "id": "cand_5",
+    "name": "Damanjot Singh",
+    "availability": {
+      "day": "Friday",
+      "start": "11:00",
+      "end": "14:00"
+    }
+  }
+]
+
